@@ -167,6 +167,10 @@ With `amd-smi`, you can verify all available GPUs (in this case, 2x Radeon AI PR
 
 <img width="1699" height="751" alt="image" src="https://github.com/user-attachments/assets/4b14dac1-702f-48c6-b467-2eb282c8e2ac" />
 
+⚠️ **Caution:**  
+Make sure **"Re-Size BAR"** is enabled in the **SBIOS**.  
+If it is disabled, **P2P** will be deactivated.
+
 ### 🎨 OpenGL Support
 
 For OpenGL validation and GPU-accelerated graphics workloads, the environment installs Mesa utilities:
@@ -179,10 +183,6 @@ glxinfo -B
 <img width="1348" height="1342" alt="image" src="https://github.com/user-attachments/assets/8cc55ebb-34f3-49ad-abcb-4f20a68abb8d" />
 
 This reports the active OpenGL renderer, vendor, version, and hardware-acceleration status.
-
-⚠️ **Caution:**  
-Make sure **"Re-Size BAR"** is enabled in the **SBIOS**.  
-If it is disabled, **P2P** will be deactivated.
 
 ## 📶 TransferBench
 
