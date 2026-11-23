@@ -31,8 +31,8 @@ exec > >(tee -a "$LOGFILE") 2>&1
 # amdgpu (dkms-kernel):  31.70.0
 #
 # PyTorch (torch):       2.15.0+rocm10.2.0
-# Transformers:          5.18.0
-# Docker:                29.8.2 min. 29.0.0 (the script will verify and skip installation if minimum requirements are installed)
+# Transformers:          5.24.0
+# Docker:                29.10 min. 29.0.0 (the script will verify and skip installation if minimum requirements are installed)
 #
 # INCLUDED TOOLS:
 # ---------------------------------------------------------------------------------------------------------------
