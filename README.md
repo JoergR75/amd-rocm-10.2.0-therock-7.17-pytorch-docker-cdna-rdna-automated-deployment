@@ -295,6 +295,13 @@ With `amd-smi`, you can verify all available GPUs (in this case, 2× Radeon AI P
 
 <img width="2033" height="746" alt="image" src="https://github.com/user-attachments/assets/fec0aa45-af97-4569-9804-eb5aa728b0fd" />
 
+Verify installed vLLM version
+```bash
+pip3 show vllm
+```
+
+<img width="2266" height="598" alt="image" src="https://github.com/user-attachments/assets/e3d00217-4939-4854-8b5e-cafa7ee224b0" />
+
 If you need to add a specific GPU, you can use the **passthrough** option.  
 First, verify the available GPUs in the `/dev/dri` directory (host).
 ```bash
