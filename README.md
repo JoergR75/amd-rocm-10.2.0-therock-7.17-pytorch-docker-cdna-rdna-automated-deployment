@@ -230,7 +230,8 @@ Compilation can take several minutes depending on HW used
 ./TransferBench p2p
 ```
 The results (256MB transfer) indicate that GPU-to-GPU P2P communication is working correctly and that both GPUs exhibit nearly identical performance.
-<img width="2092" height="812" alt="image" src="https://github.com/user-attachments/assets/6b7e9b7f-6090-40f5-b881-5fdf51076a94" />
+
+<img width="2066" height="879" alt="image" src="https://github.com/user-attachments/assets/f8e4b121-002d-4c37-a79d-d7a6a003f654" />
 
 ### ⚙️ How to Enable **Re-Size BAR** in SBIOS (example ASRock WRX90 evo)
 
