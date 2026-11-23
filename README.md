@@ -20,19 +20,6 @@ The deployment automatically installs the AMD GPU kernel driver (`amdgpu`) **31.
 
 DKMS automatically rebuilds the driver when the Linux kernel is updated. The setup also configures the required `video`, `render`, and `sudo` permissions.
 
-### 🎨 OpenGL Support
-
-For OpenGL validation and GPU-accelerated graphics workloads, the environment installs Mesa utilities:
-OpenGL can be validated with:
-
-```bash
-glxinfo -B
-```
-
-<img width="1348" height="1342" alt="image" src="https://github.com/user-attachments/assets/8cc55ebb-34f3-49ad-abcb-4f20a68abb8d" />
-
-This reports the active OpenGL renderer, vendor, version, and hardware-acceleration status.
-
 ## 🤖 AI & Development Stack
 
 The environment includes **PyTorch 2.15 with ROCm 10.2.0** together with commonly used AI libraries:
@@ -179,6 +166,19 @@ Expected Output Example:
 With `amd-smi`, you can verify all available GPUs (in this case, 2x Radeon AI PRO R9700 GPUs).
 
 <img width="1699" height="751" alt="image" src="https://github.com/user-attachments/assets/4b14dac1-702f-48c6-b467-2eb282c8e2ac" />
+
+### 🎨 OpenGL Support
+
+For OpenGL validation and GPU-accelerated graphics workloads, the environment installs Mesa utilities:
+OpenGL can be validated with:
+
+```bash
+glxinfo -B
+```
+
+<img width="1348" height="1342" alt="image" src="https://github.com/user-attachments/assets/8cc55ebb-34f3-49ad-abcb-4f20a68abb8d" />
+
+This reports the active OpenGL renderer, vendor, version, and hardware-acceleration status.
 
 ⚠️ **Caution:**  
 Make sure **"Re-Size BAR"** is enabled in the **SBIOS**.  
