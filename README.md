@@ -256,7 +256,7 @@ Check Docker installation and version
 docker -v
 ```
 
-<img width="2079" height="100" alt="image" src="https://github.com/user-attachments/assets/50daf491-a5a6-4213-ab59-3e3b15a1901f" />
+<img width="1490" height="100" alt="image" src="https://github.com/user-attachments/assets/bf27d291-d859-4854-9fd5-ac8be24ca646" />
 
 ### 🤖 vLLM Docker Images
 
