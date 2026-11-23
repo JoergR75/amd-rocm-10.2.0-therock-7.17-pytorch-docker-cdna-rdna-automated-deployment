@@ -325,7 +325,7 @@ sudo docker run -it \
 ```
 GPU2 has been added to the container
 
-<img width="1999" height="901" alt="image" src="https://github.com/user-attachments/assets/34ea8d0e-7d88-4918-aeea-869c3474971a" />
+<img width="1826" height="966" alt="image" src="https://github.com/user-attachments/assets/f4d52aba-5458-471e-bee0-a3cf316066ae" />
 
 ## How to Save a Modified Docker Container
 
