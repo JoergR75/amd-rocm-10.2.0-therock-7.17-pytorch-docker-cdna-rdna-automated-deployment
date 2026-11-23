@@ -61,7 +61,7 @@ The entire deployment is **fully unattended and reproducible**, with automatic c
 | **Component**      | **Supported Versions**                                |
 |---------------------|------------------------------------------------------|
 | **OS**            | Ubuntu 24.04.5 LTS (Noble Numbat), Ubuntu 26.04.1 LTS (Resolute Raccoon) |
-| **Kernels** tested       | 6.8.0-151 (24.04.5) • 7.0.0-38 (26.04.1)                      |
+| **Kernels** tested       | 6.8.0-151 (24.04.5) • 7.0.0-44 (26.04.1)                      |
 | **GPUs**          | AMD **RDNA4** • **RDNA3** • **CDNA4** • **CDNA3** • **CDNA2** • **CDNA1**           |
 | **APUs**        | AMD Ryzen™ AI 300 and 400 series                                    |
 | **ROCm/TheRock**          | 10.2.0 / 7.17                                                |
