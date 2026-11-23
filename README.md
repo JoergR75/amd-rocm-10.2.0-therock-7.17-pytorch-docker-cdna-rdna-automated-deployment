@@ -126,7 +126,7 @@ bash script_module_ROCm_10.2.0_TheRock_7.17_Ubuntu_24.04-26.04_pytorch.sh
 ```
 **⚠️ Note**: Entering the user password may be required.
 
-<img width="1982" height="501" alt="image" src="https://github.com/user-attachments/assets/1fada8b5-8c87-4126-a351-bd862786c000" />
+<img width="1817" height="571" alt="image" src="https://github.com/user-attachments/assets/5a38e42d-85fd-4711-9479-0c423001ed67" />
 
 The installation takes ~15 minutes depending on internet speed and hardware performance.
 
