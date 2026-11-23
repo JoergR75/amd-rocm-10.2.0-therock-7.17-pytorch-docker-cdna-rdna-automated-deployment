@@ -308,17 +308,17 @@ install_resolute() {
         numactl \
         libssl-dev
 
-    print '\n 📦 Installing AMD GPU (amdgpu-dkms) kernel driver verion 31.60.0 ...\n'
+    print '\n 📦 Installing AMD GPU (amdgpu-dkms) kernel driver verion 31.70.0 ...\n'
 
-    # Install AMD GPU Driver (amdgpu) 31.60.0
+    # Install AMD GPU Driver (amdgpu) 31.70.0
     sudo apt update
-    wget https://repo.radeon.com/amdgpu-install/31.60/ubuntu/resolute/amdgpu-install_31.60.316000-1_all.deb
-    sudo apt install -y ./amdgpu-install_31.60.316000-1_all.deb
+    wget https://repo.radeon.com/amdgpu-install/31.70/ubuntu/noble/amdgpu-install_31.70.317000-1_all.deb
+    sudo apt install -y ./amdgpu-install_31.70.317000-1_all.deb
     sudo apt update
     sudo apt install -y amdgpu-dkms
     sudo apt install -y mesa-utils
 
-    print '\n 📦 Installing ROCm 10.1.0 / TheRock 7.16 complete Core SDK including runtimes, compilers, development tools, and dependencies...\n'
+    print '\n 📦 Installing ROCm 10.2.0 / TheRock 7.17 complete Core SDK including runtimes, compilers, development tools, and dependencies...\n'
 
     # Download and install GPG key
     sudo mkdir --parents --mode=0755 /etc/apt/keyrings
@@ -337,7 +337,7 @@ install_resolute() {
 EOF
 
     sudo apt update
-    sudo apt install -y amdrocm-core-sdk10.1
+    sudo apt install -y amdrocm-core-sdk10.2
 
     # Add ROCm binaries to PATH
     info "Configuring shell environment..."
@@ -354,7 +354,7 @@ EOF
     export PATH="/opt/rocm/bin:$HOME/.local/bin:$PATH"
     export LD_LIBRARY_PATH="/opt/rocm/lib:/opt/rocm/lib64:${LD_LIBRARY_PATH:-}"
 
-    print '\n 📦 Installing PyTorch 2.14 (Stable@ROCm10.1) for ROCm 10.1.0, Transformers environment ...\n'
+    print '\n 📦 Installing PyTorch 2.15 (Stable@ROCm10.2) for ROCm 10.2.0, Transformers environment ...\n'
 
     # Install PyTorch
     mkdir -p ~/pip-tmp
@@ -367,9 +367,9 @@ EOF
         --break-system-packages
     TMPDIR=$HOME/pip-tmp \
     python3 -m pip install --no-cache-dir --index-url https://stable.repo.amd.com/rocm/whl-next/ \
-        "torch[device-all]==2.14.0+rocm10.1.0" \
-        "torchvision[device-all]==0.29.0a0+rocm10.1.0" \
-        "torchaudio==2.11.0.3+rocm10.1.0" \
+        "torch[device-all]==2.15.0+rocm10.2.0" \
+        "torchvision[device-all]==0.29.2+rocm10.2.0" \
+        "torchaudio==2.11.1+rocm10.2.0" \
         --break-system-packages
     python3 -m pip install --upgrade \
         accelerate \
