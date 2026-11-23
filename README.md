@@ -172,7 +172,7 @@ Expected Output Example:
 
 | Radeon AI PRO R9700 Ubuntu 26.04.1 LTS | Radeon AI PRO R9700 Ubuntu 24.04.5 LTS | Sixunited Notebook Ryzen AI 9 HX 470 Ubuntu 26.04.1 LTS |
 |--------|--------|--------|
-| ![](https://github.com/user-attachments/assets/4c0da6f9-68f2-41f7-a5dc-3b250d38e575) | ![](https://github.com/user-attachments/assets/61ee3534-d4fb-42c9-ab0a-65ab25d46025) | ![](https://github.com/user-attachments/assets/afaa76f9-446f-4056-bbfa-f268e43d4c07) |
+| ![](https://github.com/user-attachments/assets/4c0da6f9-68f2-41f7-a5dc-3b250d38e575) | ![](https://github.com/user-attachments/assets/4f5bb50a-e276-49e5-b6e0-3bad7051c055) | ![](https://github.com/user-attachments/assets/afaa76f9-446f-4056-bbfa-f268e43d4c07) |
 
 With `amd-smi`, you can verify all available GPUs (in this case, 2x Radeon AI PRO R9700 GPUs).
 
