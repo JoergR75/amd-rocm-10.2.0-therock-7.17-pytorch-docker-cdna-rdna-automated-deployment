@@ -209,7 +209,7 @@ install_noble() {
 
 install_resolute() {
 
-    print '\nUbuntu 26.04 (Resolute Raccoon) ROCm 10.1.0 / TheRock 7.16 + amdgpu 31.60.0 stack installation method has been set.\n'
+    print '\nUbuntu 26.04 (Resolute Raccoon) ROCm 10.2.0 / TheRock 7.17 + amdgpu 31.70.0 stack installation method has been set.\n'
     print '\n✔️ Checking if ROCm/TheRock is installed ...\n'
 
     if dpkg -l | grep -qiE 'rocm|amdrocm|amdgpu'; then
