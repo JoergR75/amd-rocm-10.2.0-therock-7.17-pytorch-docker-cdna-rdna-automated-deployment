@@ -179,8 +179,7 @@ OpenGL can be validated with:
 ```bash
 glxinfo -B
 ```
-
-<img width="1348" height="1342" alt="image" src="https://github.com/user-attachments/assets/8cc55ebb-34f3-49ad-abcb-4f20a68abb8d" />
+<img width="2169" height="1343" alt="image" src="https://github.com/user-attachments/assets/4ce1b3e1-233f-45eb-ba3a-d5be258955e3" />
 
 This reports the active OpenGL renderer, vendor, version, and hardware-acceleration status.
 
