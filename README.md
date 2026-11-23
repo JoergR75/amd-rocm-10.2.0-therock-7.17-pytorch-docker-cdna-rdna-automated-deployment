@@ -281,6 +281,8 @@ Run vLLM with all available AMD GPU access (example for RDNA4 on Ubuntu 24.04)
 sudo docker run -it \
     --device=/dev/kfd \
     --device=/dev/dri \
+    --network=host \
+    --ipc=host \
     --security-opt seccomp=unconfined \
     --group-add video \
     --entrypoint /bin/bash \
@@ -307,6 +309,8 @@ sudo docker run -it \
     --device=/dev/kfd \
     --device=/dev/dri/card2 \
     --device=/dev/dri/renderD129 \
+    --network=host \
+    --ipc=host \
     --security-opt seccomp=unconfined \
     --group-add video \
     --entrypoint /bin/bash \
