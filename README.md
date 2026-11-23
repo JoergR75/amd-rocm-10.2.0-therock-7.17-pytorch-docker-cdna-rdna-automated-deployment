@@ -29,6 +29,8 @@ OpenGL can be validated with:
 glxinfo -B
 ```
 
+<img width="1348" height="1342" alt="image" src="https://github.com/user-attachments/assets/8cc55ebb-34f3-49ad-abcb-4f20a68abb8d" />
+
 This reports the active OpenGL renderer, vendor, version, and hardware-acceleration status.
 
 ## 🤖 AI & Development Stack
