@@ -12,7 +12,7 @@
 
 This repository provides a fully automated, non-interactive deployment environment for AMD GPU development targeting **AI, HPC, and graphics workloads** on Ubuntu **24.04** and **26.04**.
 
-The setup is based on **AMD TheRock 7.17 / ROCm 10.2.0** and **PyTorch 2.15 Stable**, with support for modern AMD GPUs including **RDNA4**.
+The setup is based on **ROCm 10.2.0 / AMD TheRock 7.17** and **PyTorch 2.15 Stable**, with support for modern AMD GPUs including **RDNA4**.
 
 ### 🔧 Platform & GPU Driver
 
