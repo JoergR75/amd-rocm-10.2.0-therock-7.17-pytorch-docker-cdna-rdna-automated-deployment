@@ -637,7 +637,7 @@ else
 fi
 
 # Final installation message
-print '\n ✅ Finished ROCm 10.2.0 / TheRock 7.16 + amdgpu 31.70.0 + PyTorch 2.15 (Stable@ROCm10.2) + Transformers & Docker environment installation and setup.\n'
+print '\n ✅ Finished ROCm 10.2.0 / TheRock 7.17 + amdgpu 31.70.0 + PyTorch 2.15 (Stable@ROCm10.2) + Transformers & Docker environment installation and setup.\n'
 
 # Post-reboot testing instructions
 printf "\n 🔹 After the reboot, test your installation with:\n"
@@ -651,7 +651,7 @@ printf "  - python3 test.py\n"
 
 # vLLM Docker images for RDNA4 and CDNA1/2/3/4
 printf "\n 🔹 Install the latest vLLM Docker images:\n"
-printf "  - RDNA4 → sudo docker pull rocm/vllm:rocm10.1.0_ubuntu24.04_py3.14-pytorch_2.13.0_vllm-0.29.0\n"
+printf "  - RDNA4 → sudo docker pull rocm/vllm:rocm10.2.0_ubuntu24.04_py3.14-pytorch_2.14.0_vllm-0.32.0\n"
 printf "  - CDNA → sudo docker pull rocm/vllm:latest\n"
 
 # reboot option
