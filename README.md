@@ -269,7 +269,7 @@ Use the container image you need.
 docker pull rocm/vllm:rocm10.2.0_ubuntu24.04_py3.14-pytorch_2.14.0_vllm-0.32.0
 ```
 
-<img width="1766" height="901" alt="image" src="https://github.com/user-attachments/assets/c0b0a20e-9f2d-467b-855b-80e67de5a3df" />
+<img width="2129" height="1213" alt="image" src="https://github.com/user-attachments/assets/69dcf2c4-35ed-45eb-977c-1b324d860ba2" />
 
 Further vLLM Docker versions can be verified on AMD Docs:
 https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/vllm.html
